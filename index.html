@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mi Página de Spotify</title>
   <link rel="stylesheet" href="/styles/index.css">
+  
 </head>
 <body>
   <header>
@@ -14,10 +15,24 @@
   <main>
     <h2>Bienvenido a mi página de Spotify</h2>
     <p>Aquí puedes encontrar mis canciones favoritas y más.</p>
+    <section id="80">
+      <div class="buttonContainer">
+        <button id="popButton">Pop</button>
+        <button id="rockButton">Rock</button>
+        <ul id="80pop">
+          <li><button id="BillieJean" class="spotify-button">Billie Jean - Michael Jackson</button></li>
+          <li><button id="WhenDovesCry" class="spotify-button">When Doves Cry - Prince</button></li>
+        </ul>
+    
+    
+        <div id="iframeContainer"></div>
+      </div>
+    </section>
   </main>
 
   <footer>
     <p>Derechos de autor &copy; 2023 - Mi Página de Spotify</p>
   </footer>
+  <script src="/scripts/index.js"></script>
 </body>
 </html>
