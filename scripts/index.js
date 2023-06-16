@@ -7,7 +7,7 @@ const whenDovesCry = document.getElementById('WhenDovesCry');
 const iframeContainer = document.getElementById('iframeContainer');
 
 popButton.addEventListener('click', function() {
-    popList80.style.display = 'block';
+    popList80.style.display = 'flex';
 });
 
 billieJean.addEventListener('click', function() {
