@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass');
+
+* {
+  font: normal 16px/1.5 "Overpass", sans-serif;
+}
+
 body {
   background-color: #191414;
   color: #FFFFFF;
@@ -88,4 +94,79 @@ ul{
 
 .spotify-button:active {
   background-color: #199E49;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.chart-wrapper {
+  background: #232323;
+  border-radius: 4px;
+  box-shadow: 0 0 40px #000000;
+  display: none;
+  height: 320px;
+  padding: 20px 0 10px;
+  width: 870px;
+}
+
+.chart-wrapper h1 {
+  margin-left: 5%;
+}
+
+text {
+  font-size: 12px;
+  fill: #F0F0F0;
+}
+
+
+.axis path,
+.axis line,
+.gridline line {
+  fill: none;
+  stroke: #fff;
+  opacity: 0.1;
+  shape-rendering: crispEdges;
+}
+
+.lineDots {
+  cursor: pointer;
+  fill: #00ff59;
+  fill-opacity: 0.5;
+  stroke: #1DB954;
+  stroke-opacity: 0.4;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    fill-opacity: 1;
+    stroke-width: 10px;
+  }
+}
+
+.line {
+  stroke: #1ed760;
+  stroke-width: 3px;
+  fill: none;
+}
+
+path.domain {
+  fill: none;
+  opacity: 0.1;
+}
+
+div.tooltip {
+  color: #4a4a4a;
+  position: absolute;
+  text-align: center;
+  padding: 3px 6px;
+  font-size: 12px;
+  background: #fff;
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+.tick text {
+  font-size: 10px;
 }
