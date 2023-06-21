@@ -441,7 +441,7 @@ function drawGraphAll(data, data2) {
 
   var yScale = d3.scaleLinear()
   .domain([
-    0, d3.max(data, function (d) {
+    0, d3.max(data2, function (d) {
       return d.calls;
     })
   ])

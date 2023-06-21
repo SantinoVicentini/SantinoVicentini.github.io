@@ -60,25 +60,44 @@ footer {
   font-size: 14px;
 }
 
-.pButton{
+.botones{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15%;
+
+}
+
+.pButton {
   background-color: #00000073;
   color: #ffffff;
   border: none;
-  padding: 10px 70px;
   font-size: 16px;
   font-weight: bold;
   border-radius: 10px;
   text-transform: uppercase;
   cursor: pointer;
+  height: 250px;
+  width: 200px;
+  position: relative;
+  overflow: hidden;
 }
 
-.pButton:hover{
-  background-color: #05050559;
+.pButton img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+  transition: opacity 0.2s ease;
 }
 
-.pButton:hover{
-  background-color: #05050559;
+.pButton:hover img {
+  opacity: 1;
 }
+
 
 #iframeContainer , #iframeContainer2 , #iframeContainer3 , #iframeContainer4 {
   margin-top: 50px;
@@ -304,4 +323,66 @@ div.tooltip {
   height: 320px;
   padding: 20px 0 10px;
   width: 870px;
+}
+
+#songs {
+  overflow: hidden;
+  height: 600px;
+  background-color: #232323;
+  box-shadow: 0 0 40px #000000;
+  position: relative;
+  margin-top: 5%;
+}
+
+#songs section {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+#songs section.active {
+  opacity: 1;
+}
+
+#songs .control_prev,
+#songs .control_next {
+  position: absolute;
+  top: 35%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #000000;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#songs .control_prev:hover,
+#songs .control_next:hover {
+  opacity: 1;
+  transition: all 0.2s ease;
+}
+
+#songs .control_prev {
+  border-radius: 0 2px 2px 0;
+  left: 0;
+}
+
+#songs .control_next {
+  border-radius: 2px 0 0 2px;
+  right: 0;
+}
+
+#songs .pButton {
+  margin-right: 10px;
 }
