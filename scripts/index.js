@@ -170,3 +170,59 @@ arctic.addEventListener('click', function() {
 radioactive.addEventListener('click', function() {
     iframeContainer4.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/62yJjFtgkhUrXktIoSjgP2?utm_source=generator&theme=0" width="40%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
 });
+
+var button = document.getElementById("update-button");
+var button2 = document.getElementById("update-button2");
+var button3 = document.getElementById("update-button3");
+var button4 = document.getElementById("update-button4");
+var button5 = document.getElementById("update-button5");
+
+
+function changeButtonColor() {
+    button.classList.toggle("clicked");
+  button2.classList.remove("clicked");
+  button3.classList.remove("clicked");
+  button4.classList.remove("clicked");
+  button5.classList.remove("clicked");
+
+  }
+
+  function changeButtonColor2() {
+    button2.classList.toggle("clicked");
+    button.classList.remove("clicked");
+    button3.classList.remove("clicked");
+    button4.classList.remove("clicked");
+    button5.classList.remove("clicked");
+
+    
+  }
+
+  function changeButtonColor3() {
+    button3.classList.toggle("clicked");
+  button.classList.remove("clicked");
+  button2.classList.remove("clicked");
+  button4.classList.remove("clicked");
+  button5.classList.remove("clicked");
+
+    
+  }
+
+  function changeButtonColor4() {
+    button4.classList.toggle("clicked");
+  button.classList.remove("clicked");
+  button2.classList.remove("clicked");
+  button3.classList.remove("clicked");
+  button5.classList.remove("clicked");
+
+    
+  }
+
+  function changeButtonColor5() {
+    button5.classList.toggle("clicked");
+  button.classList.remove("clicked");
+  button2.classList.remove("clicked");
+  button3.classList.remove("clicked");
+  button4.classList.remove("clicked");
+
+    
+  }

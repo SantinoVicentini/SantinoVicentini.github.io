@@ -10,10 +10,20 @@
 </head>
 <body>
   <header>
-    <h1>Mi Página de Spotify</h1>
+    <h1>Spotify Proyecto Final</h1>
   </header>
 
   <main>
+    <section id="intro">
+      <h1>
+        <span>EN ESTE TRABAJO BUSCAMOS LAS 5 CANCIONES</span>
+        <span>MAS REPRESENTATIVAS DE ROCK Y POP A NIVEL MUNDIAL</span>
+        <span>DESDE LA DECADA DEL 80' HASTA LA ACTUALIDAD, DECADA DEL 2010</span>
+        <span>CON EL OBJETIVO DE MOSTRAR QUE GENERO ES MAS POPULAR QUE EL OTRO Y CUAL ES MAS BAILABLE.</span>
+      </h1>
+    </section>
+    
+  <div id="songs">
     <section id="80">
     <h2>80's</h2>
     <p>5 canciones de Rock/Pop mas representativas de la decada del 80.</p>
@@ -95,25 +105,29 @@
 
           <div id="iframeContainer4"></div>
     </section>
-
-    <br><br>
-
+  </div>
     <section id="timechart">
       <div class="wrapper">
         <div class="chart-wrapper" id="chart-line">
           <h1>Rock vs. Pop</h1>
+          <button id="update-button5" onclick= "changeButtonColor5()">ALL</button>
+          <button id="update-button2" onclick= "changeButtonColor2()">80's</button>
+          <button id="update-button" onclick= "changeButtonColor()">90's</button>
+          <button id="update-button3" onclick= "changeButtonColor3()">00's</button>
+          <button id="update-button4" onclick= "changeButtonColor4()">10's</button>
         </div>
+        <div class="text-container" id="text-container">
+        <div id="text-box"></div>
+
         </div>
+      </div>
     </section>
     
   </main>
-
-  <footer>
-    <p>Derechos de autor &copy; 2023 - Mi Página de Spotify</p>
-  </footer>
-
   <script src="/scripts/index.js"></script>
   <script src="/scripts/timechart.js"></script>
-
+  <footer>
+    <p>Derechos de autor &copy; 2023 - Vicentini Santino, Fortunato Agustin - Spotify Proyecto Final</p>
+  </footer>
 </body>
 </html>
