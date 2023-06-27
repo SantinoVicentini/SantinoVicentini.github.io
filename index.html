@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="/styles/index.css">
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
   <header>
@@ -23,115 +24,134 @@
       </h1>
     </section>
     
-  <div id="songs">
-    <a href="#" class="control_next">>></a>
-    <a href="#" class="control_prev"><</a>
-
-    <section id="80">
-      <div class="botones" id="botones">
-        <button id="popButton80" class="pButton">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Michael_Jackson_Impersonator_Billie_Jean.jpg">
-          Pop
-        </button>
-        <button id="rockButton80" class="pButton">
-          <img src="https://4.bp.blogspot.com/-zxaNwo2XSbk/UgaopH_V83I/AAAAAAAADu4/enMAYg5MznY/s1600/guns.jpg">
-          Rock
-        </button>
-      </div>
-        <ul id="80pop">
-          <li><button id="BillieJean" class="spotify-button">Billie Jean - Michael Jackson</button></li>
-          <li><button id="WhenDovesCry" class="spotify-button">When Doves Cry - Prince</button></li>
-        </ul>
-        <ul id="80rock">
-          <li><button id="BonJovi" class="spotify-button">Livin' On A Prayer - Bon Jovi</button></li>
-          <li><button id="SweetChild"class="spotify-button">Sweet Child O' Mine - Guns N' Roses</button></li>
-          <li><button id="UnderPressure"class="spotify-button">Under Pressure - Queen, David Bowie</button></li>
-        </ul>
-    
-    
-        <div id="iframeContainer"></div>
-    </section>
-
-    <br><br>
-
-    <section id="90">
-      <div class="botones" id="botones">
-          <button id="popButton90" class="pButton">
-            <img src="https://akamai.sscdn.co/uploadfile/letras/fotos/9/3/1/b/931b67fb652e2b8c35167a11300aa885.jpg">
-            Pop
-          </button>
-          <button id="rockButton90" class="pButton">
-            <img src="https://cdn.culturagenial.com/es/imagenes/nevermind-cke.jpg">
-            Rock
-          </button>
+    <section class="sec1">
+      <div class="container">
+        <h2 class="main-title">Decada del 80'</h2>
+        <h3 class="genrerock">Lorem Ipsum</h3>
+        <div class="content">
+          <div class="image">
+            <img src="/images/sweet.jpg">
+          </div>
+            <div class="text">
+              <h3>Lorem Ipsum</h3>
+              <p>holaaaaascascascas ascxascas ascascascas ascascascas ascascascsa ascascascas</p>
+            </div>
         </div>
-          <ul id="90pop">
-            <li><button id="Wannabe" class="spotify-button">Wannabe - Spice Girls</button></li>
-            <li><button id="Britney" class="spotify-button">Baby One More Time - Britney Spears</button></li>
-          </ul>
-          <ul id="90rock">
-            <li><button id="2t" class="spotify-button">Entre Dos Tierras - Heroes Del Silencio</button></li>
-            <li><button id="Nirvana"class="spotify-button">Smells Like Teen Spirit - Nirvana</button></li>
-            <li><button id="Wonderwall"class="spotify-button">Wonderwall - Oasis</button></li>
-          </ul>
-
-
-          <div id="iframeContainer2"></div>
-    </section>
-
-    <br><br>
-
-    <section id="00">
-      <div class="botones" id="botones">
-          <button id="popButton00" class="pButton">
-            <img src="https://m.media-amazon.com/images/M/MV5BZDkyMTdiMjEtZTlmMy00ZTBhLTg2MzEtZTcwMWVhZGJjNjk2XkEyXkFqcGdeQXVyNDQ5MDYzMTk@._V1_.jpg">
-            Pop
-          </button>
-          <button id="rockButton00" class="pButton">
-            <img src="https://i.scdn.co/image/ab67616d0000b273e2f039481babe23658fc719a">
-            Rock
-          </button>
       </div>
-          <ul id="00pop">
-            <li><button id="Crazy" class="spotify-button">Crazy In Love - Beyonce, JAY-Z</button></li>
-            <li><button id="BadRomance" class="spotify-button">Bad Romance - Lady Gaga</button></li>
-            <li><button id="Wagw" class="spotify-button">What a Girl Wants - Christina Aguilera</button></li>
-          </ul>
-          <ul id="00rock">
-            <li><button id="Dios" class="spotify-button">A Dios Le Pido - Juanes</button></li>
-            <li><button id="End"class="spotify-button">In The End - Linkin Park</button></li>
-          </ul>
-
-
-          <div id="iframeContainer3"></div>
     </section>
 
-    <br><br>
-
-    <section id="10">
-      <div class="botones" id="botones">
-          <button id="popButton10" class="pButton">
-            <img src="https://i1.sndcdn.com/artworks-000109026918-2n3ayn-t500x500.jpg">
-            Pop
-          </button>
-          <button id="rockButton10" class="pButton">
-            <img src="https://i1.sndcdn.com/artworks-000126148663-sreldk-t500x500.jpg">
-            Rock
-          </button>
+    <section class="sec2">
+      <div class="container">
+        <h3 class="genrepop">Lorem Ipsum</h3>
+        <h3 class="section-title">Lorem Ipsum</h3>
+        <div class="content">
+          <div class="image">
+            <img src="/images/billiejean.jpg">
+          </div>
+          <div class="info">
+            <h4 class="info-title">Description</h4>
+            <p>holaaaaascascascas asdasdf asdasdas asfsafdsa asfasfas asfasfas</p>
+          </div>
+        </div>
       </div>
-          <ul id="10pop">
-            <li><button id="Sio" class="spotify-button">Shake It Out - Florence + The Machine</button></li>
-            <li><button id="Adele" class="spotify-button">Rolling in the Deep - Adele</button></li>
-            <li><button id="Work" class="spotify-button">Work - Rihanna, Drake</button></li>
-          </ul>
-          <ul id="10rock">
-            <li><button id="Diwk" class="spotify-button">Do I Wanna Know? - Arctic Monkeys</button></li>
-            <li><button id="Radioactive"class="spotify-button">Radioactive - Imagine Dragons</button></li>
-          </ul>
-
-
-          <div id="iframeContainer4"></div>
     </section>
+
+    <section class="sec1">
+      <div class="container">
+        <h2 class="main-title">Decada del 90'</h2>
+        <h3 class="genrerock">Lorem Ipsum</h3>
+        <div class="content">
+          <div class="image">
+            <img src="/images/nirvana.jpeg">
+          </div>
+            <div class="text">
+              <h3>Lorem Ipsum</h3>
+              <p>holaaaaascascascas ascxascas ascascascas ascascascas ascascascsa ascascascas</p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec2">
+      <div class="container">
+        <h3 class="genrepop">Lorem Ipsum</h3>
+        <h3 class="section-title">Lorem Ipsum</h3>
+        <div class="content">
+          <div class="image">
+            <img src="/images/spicegirls.jpg">
+          </div>
+          <div class="info">
+            <h4 class="info-title">Description</h4>
+            <p>holaaaaascascascas asdasdf asdasdas asfsafdsa asfasfas asfasfas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec1">
+      <div class="container">
+        <h2 class="main-title">Decada del 00'</h2>
+        <h3 class="genrerock">Lorem Ipsum</h3>
+        <div class="content">
+          <div class="image">
+            <img src="/images/linkin.jpeg">
+          </div>
+            <div class="text">
+              <h3>Lorem Ipsum</h3>
+              <p>holaaaaascascascas ascxascas ascascascas ascascascas ascascascsa ascascascas</p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec2">
+      <div class="container">
+        <h3 class="genrepop">Lorem Ipsum</h3>
+        <h3 class="section-title">Lorem Ipsum</h3>
+        <div class="content">
+          <div class="image">
+            <img src="/images/badromance.jpg">
+          </div>
+          <div class="info">
+            <h4 class="info-title">Description</h4>
+            <p>holaaaaascascascas asdasdf asdasdas asfsafdsa asfasfas asfasfas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec1">
+      <div class="container">
+        <h2 class="main-title">Decada del 10'</h2>
+        <h3 class="genrerock">Lorem Ipsum</h3>
+        <div class="content">
+          <div class="image">
+            <img src="/images/monkeys.jpg">
+          </div>
+            <div class="text">
+              <h3>Lorem Ipsum</h3>
+              <p>holaaaaascascascas ascxascas ascascascas ascascascas ascascascsa ascascascas</p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec2">
+      <div class="container">
+        <h3 class="genrepop">Lorem Ipsum</h3>
+        <h3 class="section-title">Lorem Ipsum</h3>
+        <div class="content">
+          <div class="image">
+            <img src="/images/adele.jpg">
+          </div>
+          <div class="info">
+            <h4 class="info-title">Description</h4>
+            <p>holaaaaascascascas asdasdf asdasdas asfsafdsa asfasfas asfasfas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </div>
     <section id="timechart">
       <div class="wrapper">
@@ -153,7 +173,6 @@
   </main>
   <script src="/scripts/slider.js"></script>
   <script src="/scripts/timechart.js"></script>
-  
   <footer>
     <p>Derechos de autor &copy; 2023 - Vicentini Santino, Fortunato Agustin - Spotify Proyecto Final</p>
   </footer>
