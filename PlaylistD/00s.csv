@@ -1,6 +1,21 @@
-id,album,name,artist,explicit,popularity,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,type,uri,track_href,analysis_url,duration_ms,time_signature
-5IVuqXILoxVWvWEPm82Jxr,Dangerously In Love,Crazy In Love (feat. Jay-Z),"Beyoncé, JAY-Z",False,81,0.646,0.77,2,-6.596,0,0.226,0.00249,0.0,0.0715,0.681,99.165,audio_features,spotify:track:5IVuqXILoxVWvWEPm82Jxr,https://api.spotify.com/v1/tracks/5IVuqXILoxVWvWEPm82Jxr,https://api.spotify.com/v1/audio-analysis/5IVuqXILoxVWvWEPm82Jxr,3.93555,4
-0SiywuOBRcynK0uKGWdCnn,The Fame Monster (Deluxe Edition),Bad Romance,Lady Gaga,True,84,0.696,0.921,0,-3.755,1,0.0363,0.00314,5.24e-05,0.0842,0.714,119.001,audio_features,spotify:track:0SiywuOBRcynK0uKGWdCnn,https://api.spotify.com/v1/tracks/0SiywuOBRcynK0uKGWdCnn,https://api.spotify.com/v1/audio-analysis/0SiywuOBRcynK0uKGWdCnn,4.90955,4
-5dQVYFtcLA4pvTRiTFRFkC,Mi Sangre,A Dios Le Pido,Juanes,False,47,0.665,0.776,7,-5.72,1,0.0527,0.0637,0.0,0.0903,0.937,96.93,audio_features,spotify:track:5dQVYFtcLA4pvTRiTFRFkC,https://api.spotify.com/v1/tracks/5dQVYFtcLA4pvTRiTFRFkC,https://api.spotify.com/v1/audio-analysis/5dQVYFtcLA4pvTRiTFRFkC,3.4228833333333335,4
-5bGmuxShUba9maPswDnhCs,Christina Aguilera (Expanded Edition),What a Girl Wants,Christina Aguilera,False,66,0.754,0.819,0,-6.833,1,0.112,0.0684,0.0,0.345,0.818,142.137,audio_features,spotify:track:5bGmuxShUba9maPswDnhCs,https://api.spotify.com/v1/tracks/5bGmuxShUba9maPswDnhCs,https://api.spotify.com/v1/audio-analysis/5bGmuxShUba9maPswDnhCs,3.5966666666666667,4
-60a0Rd6pjrkxjPbaKzXjfq,Hybrid Theory (Bonus Edition),In the End,Linkin Park,False,88,0.556,0.864,3,-5.87,0,0.0584,0.00958,0.0,0.209,0.4,105.143,audio_features,spotify:track:60a0Rd6pjrkxjPbaKzXjfq,https://api.spotify.com/v1/tracks/60a0Rd6pjrkxjPbaKzXjfq,https://api.spotify.com/v1/audio-analysis/60a0Rd6pjrkxjPbaKzXjfq,3.6146666666666665,4
+id,album,name,artist,explicit,popularity,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,type,uri,track_href,analysis_url,duration_ms,time_signature,genre
+5IVuqXILoxVWvWEPm82Jxr,Dangerously In Love,Crazy In Love (feat. Jay-Z),"Beyoncé, JAY-Z",False,81,64.6,0.77,2,-6.596,0,0.226,0.00249,0.0,0.0715,0.681,99.165,audio_features,spotify:track:5IVuqXILoxVWvWEPm82Jxr,https://api.spotify.com/v1/tracks/5IVuqXILoxVWvWEPm82Jxr,https://api.spotify.com/v1/audio-analysis/5IVuqXILoxVWvWEPm82Jxr,3.93555,4,pop
+0SiywuOBRcynK0uKGWdCnn,The Fame Monster (Deluxe Edition),Bad Romance,Lady Gaga,True,84,69.6,0.921,0,-3.755,1,0.0363,0.00314,5.24e-05,0.0842,0.714,119.001,audio_features,spotify:track:0SiywuOBRcynK0uKGWdCnn,https://api.spotify.com/v1/tracks/0SiywuOBRcynK0uKGWdCnn,https://api.spotify.com/v1/audio-analysis/0SiywuOBRcynK0uKGWdCnn,4.90955,4,pop
+5dQVYFtcLA4pvTRiTFRFkC,Mi Sangre,A Dios Le Pido,Juanes,False,47,66.5,0.776,7,-5.72,1,0.0527,0.0637,0.0,0.0903,0.937,96.93,audio_features,spotify:track:5dQVYFtcLA4pvTRiTFRFkC,https://api.spotify.com/v1/tracks/5dQVYFtcLA4pvTRiTFRFkC,https://api.spotify.com/v1/audio-analysis/5dQVYFtcLA4pvTRiTFRFkC,3.4228833333333335,4,rock
+5bGmuxShUba9maPswDnhCs,Christina Aguilera (Expanded Edition),What a Girl Wants,Christina Aguilera,False,66,75.4,0.819,0,-6.833,1,0.112,0.0684,0.0,0.345,0.818,142.137,audio_features,spotify:track:5bGmuxShUba9maPswDnhCs,https://api.spotify.com/v1/tracks/5bGmuxShUba9maPswDnhCs,https://api.spotify.com/v1/audio-analysis/5bGmuxShUba9maPswDnhCs,3.5966666666666667,4,pop
+60a0Rd6pjrkxjPbaKzXjfq,Hybrid Theory (Bonus Edition),In the End,Linkin Park,False,88,55.6,0.864,3,-5.87,0,0.0584,0.00958,0.0,0.209,0.4,105.143,audio_features,spotify:track:60a0Rd6pjrkxjPbaKzXjfq,https://api.spotify.com/v1/tracks/60a0Rd6pjrkxjPbaKzXjfq,https://api.spotify.com/v1/audio-analysis/60a0Rd6pjrkxjPbaKzXjfq,3.6146666666666665,4,rock
+,,Skake It Out,,,71,51.9,,,,,,,,,,,,,,,,,pop
+,,Rolling in the Deep,,,82,73,,,,,,,,,,,,,,,,,pop
+,,Work,,,81,72.5,,,,,,,,,,,,,,,,,pop
+,,Do I Wanna Know?,,,90,54.8,,,,,,,,,,,,,,,,,rock
+,,Radioactive,,,82,44.8,,,,,,,,,,,,,,,,,rock
+,,Billie Jean,,,83,92,,,,,,,,,,,,,,,,,pop
+,,Livin' On A Prayer,,,87,53.2,,,,,,,,,,,,,,,,,rock
+,,Sweet Child O' Mine,,,88,44.6,,,,,,,,,,,,,,,,,rock
+,,When Doves Cry,,,73,72.9,,,,,,,,,,,,,,,,,pop
+,,Under Pressure,,,63,67.2,,,,,,,,,,,,,,,,,rock
+,,Entre dos tierras,,,69,45.8,,,,,,,,,,,,,,,,,rock
+,,Wannabe,,,83,76.8,,,,,,,,,,,,,,,,,pop
+,,Wonderwall,,,65,40.2,,,,,,,,,,,,,,,,,rock
+,,Smells Like Teen Spirit,,,85,50.2,,,,,,,,,,,,,,,,,rock
+,,Baby One More Time,,,82,75.9,,,,,,,,,,,,,,,,,pop

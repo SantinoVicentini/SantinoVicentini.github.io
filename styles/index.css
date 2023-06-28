@@ -87,25 +87,6 @@ text {
 
 .lineDots {
   cursor: pointer;
-  fill: #00ff59;
-  fill-opacity: 0.5;
-  stroke: #1DB954;
-  stroke-opacity: 0.4;
-  transition: all 0.2s ease-in-out;
-  &:hover {
-    fill-opacity: 1;
-    stroke-width: 20px;
-  }
-}
-
-.line{
-  stroke: #1ed760;
-  stroke-width: 2px;
-  fill: none;
-}
-
-.lineDots2 {
-  cursor: pointer;
   fill: #0099ff;
   fill-opacity: 0.5;
   stroke: #006eff;
@@ -117,8 +98,46 @@ text {
   }
 }
 
-.line2{
+.line{
   stroke: #276bff;
+  stroke-width: 2px;
+  fill: none;
+}
+
+.linee{
+  stroke: #1ED760;
+  stroke-width: 2px;
+  fill: none;
+}
+
+.lineDotss {
+  cursor: pointer;
+  fill: #00ff40;
+  fill-opacity: 0.5;
+  stroke: #00aa41;
+  stroke-opacity: 0.4;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    fill-opacity: 1;
+    stroke-width: 20px;
+  }
+}
+
+.lineDots2 {
+  cursor: pointer;
+  fill: #ff0000;
+  fill-opacity: 0.5;
+  stroke: #740000;
+  stroke-opacity: 0.4;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    fill-opacity: 1;
+    stroke-width: 20px;
+  }
+}
+
+.line2{
+  stroke: #ff4040;
   stroke-width: 2px;
   fill: none;
 }
@@ -338,4 +357,27 @@ div.tooltip {
 .genrepop , .genrerock {
   font-size: 4em;
   margin-bottom: 10px;
+}
+
+.scatter-content{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 11%;
+}
+
+.scatter-text{
+  background: #232323;
+  border-radius: 4px;
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+  height: 320px;
+  width: 400px;
+  margin-left: 10%;
+  padding-bottom: 20px;
+  overflow-y: auto;
+}
+
+.canciones{
+  font-size: 1.7em;
 }

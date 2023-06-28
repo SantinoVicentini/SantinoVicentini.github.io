@@ -401,7 +401,7 @@ function drawGraph(data) {
 
   //Draw the line
   svg.append("path")
-    .attr("class", "line")
+    .attr("class", "linee")
     .attr("d", lineFunction(data));
 
   // Define the div for the tooltip
@@ -414,8 +414,8 @@ function drawGraph(data) {
     return d.date;
   })
     .enter().append("circle")
-    .attr("class", "lineDots")
-    .attr("r", 3)
+    .attr("class", "lineDotss")
+    .attr("r", 4)
     .attr("cx", function (d) {
     return xScale(d.date);
   })
@@ -545,13 +545,13 @@ function drawGraphAll(data, data2) {
   //Append the first stop - the color at the top
   areaGradient.append("stop")
     .attr("offset", "0%")
-    .attr("stop-color", "#208b46")
+    .attr("stop-color", "blue")
     .attr("stop-opacity", 0.4);
 
   //Append the second stop - white transparant almost at the end
   areaGradient.append("stop")
     .attr("offset", "100%")
-    .attr("stop-color", "#22452e")
+    .attr("stop-color", "lightblue")
     .attr("stop-opacity", 0);
 
   // Define el gradiente para el área de data2
@@ -564,12 +564,12 @@ function drawGraphAll(data, data2) {
   // Agrega los stops para el gradiente de data2
   areaGradient2.append("stop")
     .attr("offset", "0%")
-    .attr("stop-color", "blue")  // Cambia el color del stop superior del gradiente de data2
+    .attr("stop-color", "red")  // Cambia el color del stop superior del gradiente de data2
     .attr("stop-opacity", 0.4);
 
   areaGradient2.append("stop")
     .attr("offset", "100%")
-    .attr("stop-color", "lightblue")  // Cambia el color del stop inferior del gradiente de data2
+    .attr("stop-color", "lightred")  // Cambia el color del stop inferior del gradiente de data2
     .attr("stop-opacity", 0);
 
 
@@ -648,7 +648,7 @@ function drawGraphAll(data, data2) {
   })
     .enter().append("circle")
     .attr("class", "lineDots")
-    .attr("r", 3)
+    .attr("r", 4)
     .attr("cx", function (d) {
     return xScale(d.date);
   })
@@ -681,7 +681,7 @@ function drawGraphAll(data, data2) {
   })
   .enter().append("circle")
   .attr("class", "lineDots2")
-  .attr("r", 3)
+  .attr("r", 4)
   .attr("cx", function(d) {
     return xScale(d.date);
   })
@@ -737,13 +737,32 @@ function animateLine() {
 
   // Animar el trazado de la línea
   line.transition()
-    .duration(1500)  // Duración de la animación en milisegundos
+    .duration(2000)  // Duración de la animación en milisegundos
     .attr("stroke-dashoffset", 0)
     .style("opacity", 1);
 }
 
 function animateLine2() {
   var line = d3.select(".line2");
+
+  // Obtener el largo total de la línea
+  var totalLength = line.node().getTotalLength();
+
+  // Configurar la línea inicialmente con longitud cero y opacidad cero
+  line.attr("stroke-dasharray", totalLength + " " + totalLength)
+    .attr("stroke-dashoffset", totalLength)
+    .style("opacity", 0)
+    .style("display", "block");
+
+  // Animar el trazado de la línea
+  line.transition()
+    .duration(2000)  // Duración de la animación en milisegundos
+    .attr("stroke-dashoffset", 0)
+    .style("opacity", 1);
+}
+
+function animateLine3() {
+  var line = d3.select(".linee");
 
   // Obtener el largo total de la línea
   var totalLength = line.node().getTotalLength();
@@ -770,7 +789,7 @@ function showTexts() {
     .attr("class", "chart-text")
     .attr("x", 800)  // Coordenada x del primer texto
     .attr("y", 127)  // Coordenada y del primer texto
-    .style("fill", "#1ed760")
+    .style("fill", "#276bff")
     .text("POP");
 
   // Agregar el segundo texto
@@ -778,7 +797,7 @@ function showTexts() {
     .attr("class", "chart-text")
     .attr("x", 450)  // Coordenada x del segundo texto
     .attr("y", 185)  // Coordenada y del segundo texto
-    .style("fill", "#0099ff")
+    .style("fill", "#ff4040")
     .text("ROCK");
 }
 
@@ -790,7 +809,7 @@ $("#update-button").click(function() {
   // Actualiza el gráfico
   updateGraph();
 
-  animateLine();
+  animateLine3();
   document.getElementById("text-box").innerText = "En la decada del 90, la cancion mas popular fue (Smells Like Teen Spirit) el famoso hit mundial de Nirvana con un 85/100. Sin embargo, la cancion mas bailable fue del genero pop (Wannabe) con un 81/100.";
   text.style.display = 'flex'
 });
@@ -802,7 +821,7 @@ $("#update-button2").click(function() {
 
   // Actualiza el gráfico
   updateGraph();
-  animateLine();
+  animateLine3();
   document.getElementById("text-box").innerText = "En la decada del 80, donde empezo el auge del POP, con el artista de pop conocido como, Rey del Pop, Michael Jackson, la cancion (Billie Jean) es una de las mas conocidas del genero, alcanzando una popularidad de 83/100 siendo una de las mas bailables con un 92/100. El ROCK no se queda atras con (Sweet Child O Mine) siendo la mas popular de la decada con un 88/100.";
   text.style.display = 'flex'
 
@@ -816,7 +835,7 @@ $("#update-button3").click(function() {
 
   // Actualiza el gráfico
   updateGraph();
-  animateLine();
+  animateLine3();
   document.getElementById("text-box").innerText = "Entremos en los 2000... Aqui vuelve a ocurrir que la cancion mas popular es del genero ROCK con la famosa cancion (In The End) de Linkin Park con un 88/100 y la cancion mas bailable vuelve a ser del genero POP (What A Girl Wants) de Christina Aguilera con un 75/100.";
   text.style.display = 'flex'
 
@@ -830,7 +849,7 @@ $("#update-button4").click(function() {
 
   // Actualiza el gráfico
   updateGraph();
-  animateLine();
+  animateLine3();
   document.getElementById("text-box").innerText = "Acercandonos mas a la actualidad (decada del 2010) tenemos a la cancion de ROCK mas popular (Do I Wanna Know?) de Arctic Monkeys con un 90/100 y la mas bailable es de genero POP (Rolling in the Deep) de Adele con un 77/100.";
   text.style.display = 'flex'
 
