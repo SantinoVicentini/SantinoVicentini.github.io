@@ -6,249 +6,249 @@ const text = document.getElementById('text-box');
 
 var lineDataset80 = [
     {
-    "date": 0,
+    "date": 1979,
     "calls": 0,
     "song": ''
-  }, 
-  {
-    "date": 44.6,
-    "calls": 88,
-    "song": 'Sweet Child O Mine'
   },
   {
-    "date": 51,
-    "calls": 87,
-    "song": 'Livin On A Prayer'
-  },
-  {
-    "date": 68,
+    "date": 1981,
     "calls": 63,
     "song": 'Under Pressure'
   },
   {
-    "date": 71,
+    "date": 1982,
+    "calls": 83,
+    "song": 'Billie Jean'
+  },
+  {
+    "date": 1984,
     "calls": 73,
     "song": 'When Doves Cry'
   },
   {
-    "date": 92,
-    "calls": 83,
-    "song": 'Billie Jean'
+    "date": 1986,
+    "calls": 87,
+    "song": 'Livin On A Prayer'
+  },
+  {
+    "date": 1987,
+    "calls": 88,
+    "song": 'Sweet Child O Mine'
   }
 ]
 
 var lineDataset90 = [
     {
-      "date": 0,
+      "date": 1989,
       "calls": 0,
       "song": ""
     },
     {
-      "date": 40.2,
-      "calls": 65,
-      "song": "Wonderwall"
-    },
-    {
-      "date": 47,
+      "date": 1990,
       "calls": 69,
       "song": "Entre Dos Tierras"
     },
     {
-      "date": 49,
+      "date": 1992,
       "calls": 85,
       "song": "Smells Like Teen Spirit"
     },
     {
-      "date": 79,
-      "calls": 82,
-      "song": "Baby One More Time"
+      "date": 1995,
+      "calls": 65,
+      "song": "Wonderwall"
     },
     {
-      "date": 81,
+      "date": 1996,
       "calls": 83,
       "song": "Wannabe"
+    },
+    {
+      "date": 1998,
+      "calls": 82,
+      "song": "Baby One More Time"
     }
   ];
 
   var lineDataset00 = [
     {
-      "date": 0,
+      "date": 1999,
       "calls": 0,
       "song": ""
     },
     {
-      "date": 56.6,
+      "date": 2000,
       "calls": 88,
       "song": "In the End"
     },
     {
-      "date": 64.6,
-      "calls": 81,
-      "song": "Crazy In Love"
+      "date": 2001,
+      "calls": 66,
+      "song": "What a Girl Wants"
     },
     {
-      "date": 66.5,
+      "date": 2002,
       "calls": 47,
       "song": "A dios Le Pido"
     },
     {
-      "date": 69.6,
-      "calls": 84,
-      "song": "Bad Romance"
+      "date": 2003,
+      "calls": 81,
+      "song": "Crazy In Love"
     },
     {
-      "date": 75,
-      "calls": 66,
-      "song": "What a Girl Wants"
+      "date": 2009,
+      "calls": 84,
+      "song": "Bad Romance"
     }
   ];
 
   var lineDataset10 = [
     {
-      "date": 0,
+      "date": 2009,
       "calls": 0,
       "song": ""
     },
     {
-      "date": 43,
+      "date": 2011,
       "calls": 82,
-      "song": "Radioactive"
+      "song": "Rolling In The Deep"
     },
     {
-      "date": 53,
+      "date": 2012,
       "calls": 71,
       "song": "Shake It Out"
     },
     {
-      "date": 54.8,
+      "date": 2013,
+      "calls": 82,
+      "song": "Radioactive"
+    },
+    {
+      "date": 2014,
       "calls": 90,
       "song": "Do I Wanna Know?"
     },
     {
-      "date": 73,
+      "date": 2016,
       "calls": 81,
       "song": "Work"
-    },
-    {
-      "date": 77,
-      "calls": 82,
-      "song": "Rolling In The Deep"
     }
   ];
 
   var lineDatasetAllPop = [
     {
-      "date": 0,
+      "date": 1979,
       "calls": 0,
       "song": ""
     },
     {
-      "date": 53,
-      "calls": 71,
-      "song": "Shake It Out"
+      "date": 1982,
+      "calls": 83,
+      "song": "Billie Jean"
     },
     {
-      "date": 64.6,
-      "calls": 81,
-      "song": "Crazy In Love"
-    },
-    {
-      "date": 69.6,
-      "calls": 84,
-      "song": "Bad Romance"
-    },
-    {
-      "date": 71,
+      "date": 1984,
       "calls": 73,
       "song": "When Doves Cry"
     },
     {
-      "date": 73,
-      "calls": 81,
-      "song": "Work"
-    },
-    {
-      "date": 75,
-      "calls": 66,
-      "song": "What a Girl Wants"
-    },
-    {
-      "date": 77,
-      "calls": 82,
-      "song": "Rolling In The Deep"
-    },
-    {
-      "date": 79,
-      "calls": 82,
-      "song": "Baby One More Time"
-    },
-    {
-      "date": 81,
+      "date": 1996,
       "calls": 83,
       "song": "Wannabe"
     },
     {
-      "date": 92,
-      "calls": 83,
-      "song": "Billie Jean"
+      "date": 1998,
+      "calls": 82,
+      "song": "Baby One More Time"
+    },
+    {
+      "date": 2001,
+      "calls": 66,
+      "song": "What a Girl Wants"
+    },
+    {
+      "date": 2003,
+      "calls": 81,
+      "song": "Crazy In Love"
+    },
+    {
+      "date": 2009,
+      "calls": 84,
+      "song": "Bad Romance"
+    },
+    {
+      "date": 2011,
+      "calls": 82,
+      "song": "Rolling In The Deep"
+    },
+    {
+      "date": 2012,
+      "calls": 71,
+      "song": "Shake It Out"
+    },
+    {
+      "date": 2016,
+      "calls": 81,
+      "song": "Work"
     }
   ];
 
   var lineDatasetAllRock = [
     {
-      "date": 0,
+      "date": 1979,
       "calls": 0,
       "song": ""
     },
     {
-      "date": 40.2,
-      "calls": 65,
-      "song": "Wonderwall"
+      "date": 1981,
+      "calls": 63,
+      "song": "Under Pressure"
     },
     {
-      "date": 43,
-      "calls": 82,
-      "song": "Radioactive"
-    },
-    {
-      "date": 44.6,
-      "calls": 88,
-      "song": "Sweet Child O Mine"
-    },
-    {
-      "date": 47,
-      "calls": 69,
-      "song": "Entre Dos Tierras"
-    },
-    {
-      "date": 49,
-      "calls": 85,
-      "song": "Smells Like Teen Spirit"
-    },
-    {
-      "date": 51,
+      "date": 1986,
       "calls": 87,
       "song": "Livin On A Prayer"
     },
     {
-      "date": 54.8,
-      "calls": 90,
-      "song": "Do I Wanna Know?"
+      "date": 1987,
+      "calls": 88,
+      "song": "Sweet Child O Mine"
     },
     {
-      "date": 56.6,
+      "date": 1990,
+      "calls": 69,
+      "song": "Entre Dos Tierras"
+    },
+    {
+      "date": 1992,
+      "calls": 85,
+      "song": "Smells Like Teen Spirit"
+    },
+    {
+      "date": 1995,
+      "calls": 65,
+      "song": "Wonderwall"
+    },
+    {
+      "date": 2000,
       "calls": 88,
       "song": "In The End"
     },
     {
-      "date": 66.5,
+      "date": 2002,
       "calls": 47,
       "song": "A Dios Le Pido"
     },
     {
-      "date": 68,
-      "calls": 63,
-      "song": "Under Pressure"
+      "date": 2013,
+      "calls": 82,
+      "song": "Radioactive"
+    },
+    {
+      "date": 2014,
+      "calls": 90,
+      "song": "Do I Wanna Know?"
     }
   ];
 
@@ -260,12 +260,20 @@ var lineDataset90 = [
 function drawGraph(data) {
 
   var margin = {top: 30, right: 30, bottom: 50, left: 64},
-      width  = 860 - margin.left - margin.right,
-      height = 270 - margin.top - margin.bottom;
+      width  = 1200 - margin.left - margin.right,
+      height = 430 - margin.top - margin.bottom;
 
+  var xMin = d3.min(data, function(d) {
+      return d.date;
+  });
+      
+  var xMax = d3.max(data, function(d) {
+      return d.date;
+  });
+      
   var xScale = d3.scaleLinear()
-  .domain([0, 100])
-  .range([0, width]);
+    .domain([xMin, xMax])
+    .range([0, width]);
 
   var yScale = d3.scaleLinear()
   .domain([
@@ -352,9 +360,10 @@ function drawGraph(data) {
     .call(xAxis)
     .append("text")
     .attr("transform", "translate(364,14)")
-    .attr("y", "2em")
+    .attr("x", "14em")
+    .attr("y", "3em")
     .style("text-anchor", "middle")
-    .text("Danceability");
+    .text("YEAR");
 
   //Add the Y Axis
   svg.append("g")
@@ -362,10 +371,10 @@ function drawGraph(data) {
     .call(yAxis)
     .append("text")
     .attr("transform", "rotate(-90)")
-    .attr("x", "-5em")
+    .attr("x", "-12em")
     .attr("y", "-3em")
     .style("text-anchor", "end")
-    .text("Popularity");
+    .text("POPULARITY");
 
 
 
@@ -431,13 +440,23 @@ function drawGraph(data) {
 
 function drawGraphAll(data, data2) {
 
-  var margin = {top: 30, right: 30, bottom: 50, left: 64},
-      width  = 860 - margin.left - margin.right,
-      height = 270 - margin.top - margin.bottom;
+  var combinedData = data.concat(data2);
 
+  var margin = {top: 30, right: 30, bottom: 50, left: 64},
+      width  = 1200 - margin.left - margin.right,
+      height = 430 - margin.top - margin.bottom;
+
+  var xMin = d3.min(combinedData, function(d) {
+      return d.date;
+  });
+      
+  var xMax = d3.max(combinedData, function(d) {
+      return d.date;
+  });
+      
   var xScale = d3.scaleLinear()
-  .domain([0, 100])
-  .range([0, width]);
+    .domain([xMin, xMax])
+    .range([0, width]);
 
   var yScale = d3.scaleLinear()
   .domain([
@@ -454,8 +473,6 @@ function drawGraphAll(data, data2) {
     })
   ])
   .range([height, 0]);
-
-  var combinedData = data.concat(data2);
 
   var xAxisValues = combinedData.map(function(d) {
     return d.date;
@@ -570,9 +587,10 @@ function drawGraphAll(data, data2) {
     .call(xAxis)
     .append("text")
     .attr("transform", "translate(364,14)")
-    .attr("y", "2em")
+    .attr("x", "14em")
+    .attr("y", "3em")
     .style("text-anchor", "middle")
-    .text("Danceability");
+    .text("YEAR");
 
   //Add the Y Axis
   svg.append("g")
@@ -580,10 +598,10 @@ function drawGraphAll(data, data2) {
     .call(yAxis)
     .append("text")
     .attr("transform", "rotate(-90)")
-    .attr("x", "-5em")
+    .attr("x", "-10em")
     .attr("y", "-3em")
     .style("text-anchor", "end")
-    .text("Popularity");
+    .text("POPULARITY");
 
 
 
@@ -750,8 +768,8 @@ function showTexts() {
   // Agregar el primer texto
   svg.append("text")
     .attr("class", "chart-text")
-    .attr("x", 690)  // Coordenada x del primer texto
-    .attr("y", 80)  // Coordenada y del primer texto
+    .attr("x", 800)  // Coordenada x del primer texto
+    .attr("y", 127)  // Coordenada y del primer texto
     .style("fill", "#1ed760")
     .text("POP");
 
@@ -759,7 +777,7 @@ function showTexts() {
   svg.append("text")
     .attr("class", "chart-text")
     .attr("x", 450)  // Coordenada x del segundo texto
-    .attr("y", 125)  // Coordenada y del segundo texto
+    .attr("y", 185)  // Coordenada y del segundo texto
     .style("fill", "#0099ff")
     .text("ROCK");
 }

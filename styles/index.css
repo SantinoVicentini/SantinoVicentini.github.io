@@ -66,16 +66,6 @@ footer {
   justify-content: center;
 }
 
-.chart-wrapper {
-  background: #232323;
-  border-radius: 4px;
-  box-shadow: 0 0 40px #000000;
-  display: none;
-  height: 320px;
-  padding: 20px 0 10px;
-  width: 870px;
-}
-
 .chart-wrapper h1 {
   margin-left: 5%;
 }
@@ -104,7 +94,7 @@ text {
   transition: all 0.2s ease-in-out;
   &:hover {
     fill-opacity: 1;
-    stroke-width: 10px;
+    stroke-width: 20px;
   }
 }
 
@@ -123,7 +113,7 @@ text {
   transition: all 0.2s ease-in-out;
   &:hover {
     fill-opacity: 1;
-    stroke-width: 10px;
+    stroke-width: 20px;
   }
 }
 
@@ -156,7 +146,7 @@ div.tooltip {
 #update-button {
   position: relative;
   top: -35px;
-  right: -71%;
+  right: -75%;
   background-color: #313131;
   cursor: pointer;
   border: none;
@@ -167,7 +157,7 @@ div.tooltip {
 #update-button2 {
   position: relative;
   top: -35px;
-  right: -70%;
+  right: -74%;
   background-color: #313131;
   cursor: pointer;
   border: none;
@@ -179,7 +169,7 @@ div.tooltip {
 #update-button3 {
   position: relative;
   top: -35px;
-  right: -72%;
+  right: -76%;
   background-color: #313131;
   cursor: pointer;
   border: none;
@@ -191,7 +181,7 @@ div.tooltip {
 #update-button4 {
   position: relative;
   top: -35px;
-  right: -73%;
+  right: -77%;
   background-color: #313131;
   cursor: pointer;
   border: none;
@@ -203,7 +193,7 @@ div.tooltip {
 #update-button5 {
   position: relative;
   top: -35px;
-  right: -69%;
+  right: -70%;
   background-color: #313131;
   cursor: pointer;
   border: none;
@@ -241,9 +231,9 @@ div.tooltip {
   border-radius: 4px;
   box-shadow: 0 0 40px #000000;
   display: none;
-  height: 320px;
+  height: 500px;
   padding: 20px 0 10px;
-  width: 870px;
+  width: 1200px;
 }
 
 .sec1{
