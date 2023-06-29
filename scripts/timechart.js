@@ -810,7 +810,7 @@ $("#update-button").click(function() {
   updateGraph();
 
   animateLine3();
-  document.getElementById("text-box").innerText = "En la decada del 90, la cancion mas popular fue (Smells Like Teen Spirit) el famoso hit mundial de Nirvana con un 85/100. Sin embargo, la cancion mas bailable fue del genero pop (Wannabe) con un 81/100.";
+  document.getElementById("text-box").innerText = "En la decada del 90, la cancion mas popular fue (Smells Like Teen Spirit) el famoso hit mundial de Nirvana con un 85/100.";
   text.style.display = 'flex'
 });
 
@@ -822,7 +822,7 @@ $("#update-button2").click(function() {
   // Actualiza el gráfico
   updateGraph();
   animateLine3();
-  document.getElementById("text-box").innerText = "En la decada del 80, donde empezo el auge del POP, con el artista de pop conocido como, Rey del Pop, Michael Jackson, la cancion (Billie Jean) es una de las mas conocidas del genero, alcanzando una popularidad de 83/100 siendo una de las mas bailables con un 92/100. El ROCK no se queda atras con (Sweet Child O Mine) siendo la mas popular de la decada con un 88/100.";
+  document.getElementById("text-box").innerText = "En la decada del 80, donde empezo el auge del POP, con el artista de pop conocido como, Rey del Pop, Michael Jackson, la cancion (Billie Jean) es una de las mas conocidas del genero, alcanzando una popularidad de 83/100. El ROCK con (Sweet Child O Mine) siendo la mas popular de la decada con un 88/100.";
   text.style.display = 'flex'
 
   
@@ -836,7 +836,7 @@ $("#update-button3").click(function() {
   // Actualiza el gráfico
   updateGraph();
   animateLine3();
-  document.getElementById("text-box").innerText = "Entremos en los 2000... Aqui vuelve a ocurrir que la cancion mas popular es del genero ROCK con la famosa cancion (In The End) de Linkin Park con un 88/100 y la cancion mas bailable vuelve a ser del genero POP (What A Girl Wants) de Christina Aguilera con un 75/100.";
+  document.getElementById("text-box").innerText = "Entremos en los 2000... Aqui vuelve a ocurrir que la cancion mas popular es del genero ROCK con la famosa cancion (In The End) de Linkin Park con un 88/100.";
   text.style.display = 'flex'
 
 
@@ -850,7 +850,7 @@ $("#update-button4").click(function() {
   // Actualiza el gráfico
   updateGraph();
   animateLine3();
-  document.getElementById("text-box").innerText = "Acercandonos mas a la actualidad (decada del 2010) tenemos a la cancion de ROCK mas popular (Do I Wanna Know?) de Arctic Monkeys con un 90/100 y la mas bailable es de genero POP (Rolling in the Deep) de Adele con un 77/100.";
+  document.getElementById("text-box").innerText = "Acercandonos mas a la actualidad (decada del 2010) tenemos a la cancion de ROCK mas popular (Do I Wanna Know?) de Arctic Monkeys con un 90/100 y la mas popula de genero POP (Rolling in the Deep) de Adele con un 82/100.";
   text.style.display = 'flex'
 
 });
@@ -861,7 +861,7 @@ $("#update-button5").click(function() {
   animateLine();
   animateLine2();
   showTexts()
-  document.getElementById("text-box").innerText = "Para concluir construimos un grafico de dos lineas, una de POP y otra de ROCK, de todas las decadas en la cual se observa que las canciones de POP son mas bailables que las de ROCK y las canciones de ROCK son mas populares que las de POP en general. La cancion mas popular es (Do I Wanna Know?) y la mas bailable es (Billie Jean).";
+  document.getElementById("text-box").innerText = "Para concluir construimos un grafico de dos lineas, una de POP y otra de ROCK, de todas las decadas en la cual se observa que las canciones de ROCK son mas populares que las de POP en general. La cancion mas popular es (Do I Wanna Know?).";
   text.style.display = 'flex'
   
 });
