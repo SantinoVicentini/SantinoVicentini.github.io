@@ -13,31 +13,27 @@ body {
 
 header {
   background-color: #1DB954;
-  padding: 20px;
-}
-
-#intro {
-  margin-top: 2%;
-  margin-bottom: 2%;
-  background: #232323;
-  border-radius: 4px;
+  padding: 10px;
+  color: #fff;
   text-align: center;
-  box-shadow: 0 0 40px #000000;
 }
 
-#intro h1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  line-height: 1.2;
+header h1{
+  font-size: 5em;
 }
 
-#intro h1 span {
-  display: block;
-  font-size: 28px;
-
+header h2{
+  font-size: 2em;
 }
 
+.intro{
+  text-align: center;
+  margin-top: 150px;
+}
+
+.intro p{
+  font-size: 1.2em;
+}
 
 h1 {
   margin: 0;
@@ -363,7 +359,7 @@ div.tooltip {
   align-items: center;
   display: flex;
   justify-content: center;
-  margin-top: 11%;
+  margin-top: 20%;
 }
 
 .scatter-text{
@@ -380,4 +376,11 @@ div.tooltip {
 
 .canciones{
   font-size: 1.7em;
+}
+
+.canciones2{
+  font-size: 1.7em;
+  position: absolute;
+  margin-bottom: 30%;
+  margin-right: 45%;
 }
